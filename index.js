@@ -6,49 +6,123 @@ let bodyParser = require('body-parser');
 let multer  = require('multer');
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
+// 日志相关
+const log4js= require('./config/log-config')
+const logger = log4js.getLogger()//根据需要获取logger
+const errlogger = log4js.getLogger('err')
+const othlogger = log4js.getLogger('oth')
+
+const Response=require('./config/response')
+
+let User=require('./dao/model/user')
+
 let app = express();
+log4js.useLogger(app,logger)
 app.use(express.static('public'));
 app.use(cookieParser())
-app.use(bodyParser.urlencoded({ extended: false }));
+
+app.use(bodyParser.json({limit: '1mb'}));  //body-parser 解析json格式数据
+app.use(bodyParser.urlencoded({            //此项必须在 bodyParser.json 下面,为参数编码
+    extended: true
+}));
+
 app.use(multer({ dest: '/tmp/'}).array('image'));
 
-// 添加用户
+// 注册用户
 app.post('/register', urlencodedParser, function (req, res) {
+    logger.info('test log')
+    let user = new User(req.body);
     
-    var response = {
-        "username":req.body.username,
-        "password":req.body.password
-    };
-    console.log(response);
-    return;
-    
-    var MongoClient = require('mongodb').MongoClient;
-    var url = "mongodb://localhost:27017/mymongo";
-    
-    MongoClient.connect(url, function(err, db) {
-        if (err) throw err;
-        console.log('数据库已创建');
-        var dbase = db.db("mymongo");
-        dbase.createCollection('user', function (err, res) {
-            if (err) throw err;
-            console.log("创建集合!");
-            dbase.collection("user").insertOne(response, function(err, res) {
-                if (err) throw err;
-                console.log("文档插入成功");
-                dbase.collection("user"). find({}).toArray(function(err, result) { // 返回集合中所有数据
-                    if (err) throw err;
-                    console.log(result);
-                    db.close();
+    User.find(req.body).then(data=>{
+        if(data && data.length>0){
+            res.send(Response.businessException("用户已注册"))
+        }else{
+            user.save().then(data=>{
+                res.send({
+                    isSuccess:'0',
+                    errorMsg:'',
+                    data:data
                 });
-            });
-        });
-        
-        
-    });
+            }).catch(data=>{
+                res.send(Response.systemException());
+            })
+        }
+    }).catch(data=>{
+    
+    })
+    
+})
+
+// 用户登录
+app.post('/login', urlencodedParser, function (req, res) {
+    
+    var whereObj = {
+        username:req.body.username,
+        password:req.body.password
+    };
+    
+    User.find(whereObj).then(data=>{
+        if(data && data.length>0){
+            res.send(Response.success(data[0]))
+        }else{
+            res.send(Response.businessException("未找到对应用户"))
+        }
+    }).catch(data=>{
+    
+    })
+    
+})
+
+// 用户注销
+app.post('/logoff', urlencodedParser, function (req, res) {
+    
+    var wherestr = req.body;
+    logger.info(req.body)
+    
+    User.find(wherestr).then(data=>{
+        if(data && data.length>0){
+            User.remove(wherestr).then(data=>{
+                res.send(Response.success());
+            }).catch(data=>{
+                res.send(Response.systemException());
+            })
+        }else{
+            res.send(Response.businessException("未找到对应用户"))
+        }
+    }).catch(data=>{
+    
+    })
+    
+})
+// 用户注销
+app.post('/updateUserInfo', urlencodedParser, function (req, res) {
+    
+    var whereObj = {
+        username:req.body.username,
+        password:req.body.password
+    };
+    let updateObj=JSON.parse(JSON.stringify(req.body));
+    updateObj.password=req.body.newPassword
+    logger.info(req.body)
+    
+    User.find(whereObj).then(data=>{
+        logger.info("..",whereObj)
+        logger.info(data)
+        if(data && data.length>0){
+            User.update(whereObj,updateObj).then(data=>{
+                res.send(Response.success());
+            }).catch(err=>{
+                logger.info(err)
+            })
+        }else{
+            res.send(Response.businessException("未找到对应用户"))
+        }
+    }).catch(err=>{
+        logger.info(err)
+    })
     
     
     
-    res.end(JSON.stringify(response));
 })
 
 

@@ -1,6 +1,16 @@
 var mongoose = require('mongoose'),
-    Promise = require('bluebird'),
-DB_URL = 'mongodb://localhost:27017/zcq';
+    Promise = require('bluebird');
+
+var fs=require('fs');
+var path=require('path');
+
+console.log(__dirname)
+
+var domainFile = path.join(__dirname, '../config/domain.json');
+var domainConfig=JSON.parse(fs.readFileSync( domainFile));
+
+DB_URL = 'mongodb://'+domainConfig.ip+':27017/zcq';
+
 
 mongoose.Promise = Promise;
 

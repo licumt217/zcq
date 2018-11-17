@@ -3,19 +3,12 @@
  */
 const systemException="网络繁忙请稍等";
 
-var response ={
+let response ={
     isSuccess:'0',
     errorMsg:''
 };
 
 function reset() {
-    response ={
-        isSuccess:'0',
-        errorMsg:''
-    };
-}
-
-response.init=(data)=>{
     response ={
         isSuccess:'0',
         errorMsg:''
@@ -43,9 +36,7 @@ response.businessException=(errorMsg)=>{
 response.systemException=(errorMsg)=>{
     reset();
     response.isSuccess='2';
-    if(errorMsg){
-        response.errorMsg=systemException;
-    }
+    response.errorMsg=systemException;
     
     return response;
 }

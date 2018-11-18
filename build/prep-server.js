@@ -33,7 +33,7 @@ toCopyArray.forEach((item)=>{
 
 
 cp('-R', 'index.js', assetsPath)
-cp('-R', 'package-lock.json', assetsPath)
+cp('-R', 'package.json', assetsPath)
 
 
 let file='../zcq/config/domain.json'

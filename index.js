@@ -17,6 +17,7 @@ const uploadRouter = require('./routes/upload');
 
 
 let app = express();
+
 app.use(express.static('public'));
 log4js.useLogger(app,logger)
 
@@ -25,10 +26,8 @@ app.use(bodyParser.urlencoded({            //此项必须在 bodyParser.json 下
     extended: false
 }));
 
+multer({dest:'uploads/'});
 
-var upload = multer({dest:'uploads/'});
-
-app.use(multer({dest:"./uploads"}).array("image33"));
 
 app.use('/', indexRouter);
 app.use('/user', userRouter);

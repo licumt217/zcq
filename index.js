@@ -11,28 +11,36 @@ const logger = log4js.getLogger() // 根据需要获取logger
 
 const indexRouter = require('./routes/index');
 const userRouter = require('./routes/user');
+const uploadRouter = require('./routes/upload');
 
 
 
 
 let app = express();
+app.use(express.static('public'));
 log4js.useLogger(app,logger)
 
 app.use(bodyParser.json({limit: '1mb'}));  //body-parser 解析json格式数据
 app.use(bodyParser.urlencoded({            //此项必须在 bodyParser.json 下面,为参数编码
-    extended: true
+    extended: false
 }));
+
+
+var upload = multer({dest:'uploads/'});
+
+app.use(multer({dest:"./uploads"}).array("image33"));
 
 app.use('/', indexRouter);
 app.use('/user', userRouter);
+app.use('/upload', uploadRouter);
 
 
 
-// app.use(express.static('public'));
+//
 // app.use(cookieParser())
 //
 
-// app.use(multer({ dest: '/tmp/'}).array('image'));
+
 //
 //
 

@@ -1,0 +1,84 @@
+[2018-11-19T19:19:17.951] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:19:44.056] [INFO] default - [127.0.0.1 GET / 200 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:19:44.227] [INFO] default - [127.0.0.1 GET /favicon.ico 404 5ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:22:02.820] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:22:05.671] [INFO] default - [127.0.0.1 GET / 404 9ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:24:41.781] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:24:43.623] [INFO] default - [127.0.0.1 GET / 500 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:24:59.808] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:25:01.438] [INFO] default - [127.0.0.1 GET / 200 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:25:17.892] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:26:48.758] [INFO] default - [127.0.0.1 GET / 200 11ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:27:02.163] [INFO] default - [127.0.0.1 POST /upload 500 15ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:27:52.179] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:27:57.803] [INFO] default - [127.0.0.1 POST /upload 500 34ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:29:11.238] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:29:17.895] [INFO] default - [127.0.0.1 POST /upload 500 30ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:29:26.799] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:29:30.878] [INFO] default - [127.0.0.1 GET / 304 15ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:29:39.231] [INFO] default - [127.0.0.1 POST /upload 500 18ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:30:26.793] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:30:37.039] [INFO] default - [127.0.0.1 POST /upload 500 15ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:39:21.998] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:42:53.108] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:43:01.429] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:43:05.085] [INFO] default - [127.0.0.1 GET / 304 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:43:10.365] [INFO] default - [127.0.0.1 POST /upload 500 16ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:44:40.502] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:45:08.401] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:45:10.757] [INFO] default - [127.0.0.1 GET / 304 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:45:15.189] [INFO] default - [127.0.0.1 POST /upload 500 17ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:46:56.530] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:47:01.019] [INFO] default - [127.0.0.1 GET / 304 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:47:06.836] [INFO] default - [127.0.0.1 POST /upload 500 20ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:47:17.543] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:50:29.836] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:50:46.964] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:50:51.663] [INFO] default - [127.0.0.1 GET / 304 6ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:50:56.197] [INFO] default - [127.0.0.1 POST /upload 500 40ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:53:52.979] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:53:56.807] [INFO] default - [127.0.0.1 GET / 304 13ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:54:01.184] [INFO] default - 上传的文件名： D:\tjd\zcq/0001.png
+[2018-11-19T19:54:02.696] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:54:02.773] [INFO] default - 上传的文件名： D:\tjd\zcq/0001.png
+[2018-11-19T19:54:04.345] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:54:32.062] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:54:50.056] [INFO] default - [127.0.0.1 GET / 304 8ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:54:54.812] [INFO] default - 上传的文件名： D:\tjd\zcq/0001.png
+[2018-11-19T19:54:56.361] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:54:56.416] [INFO] default - 上传的文件名： D:\tjd\zcq/0001.png
+[2018-11-19T19:54:57.925] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:57:31.275] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:57:57.933] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:58:01.818] [INFO] default - [127.0.0.1 GET / 304 7ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:58:06.650] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T19:58:06.653] [INFO] default - [127.0.0.1 POST /upload 500 48ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:58:33.077] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:58:37.511] [INFO] default - [127.0.0.1 GET / 304 15ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:58:42.093] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T19:58:43.727] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:58:43.907] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T19:58:45.519] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:59:20.879] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:59:24.152] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T19:59:30.472] [INFO] default - [127.0.0.1 GET / 304 5ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T19:59:34.953] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T20:00:29.471] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T20:00:29.613] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T20:00:29.627] [INFO] default - [127.0.0.1 POST /upload 200 79ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:00:35.146] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T20:00:44.426] [INFO] default - [127.0.0.1 GET / 304 14ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:00:48.575] [INFO] default - [127.0.0.1 POST /upload 500 18ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:01:56.258] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T20:01:58.371] [INFO] default - [127.0.0.1 GET / 304 12ms][ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:02:11.749] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T20:02:11.758] [INFO] default - [127.0.0.1 POST /upload 200 18ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:02:35.482] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T20:02:41.711] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/01.png
+[2018-11-19T20:02:41.724] [INFO] default - [127.0.0.1 POST /upload 200 41ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:02:54.771] [INFO] default - [127.0.0.1 POST /upload 500 40ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:03:09.065] [INFO] default - [127.0.0.1 POST /upload 500 4ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:05:47.018] [INFO] default - zcq后台服务成功启动，访问地址为 http://0.0.0.0:8081
+[2018-11-19T20:05:50.826] [INFO] default - 上传的文件名： D:\tjd\zcq\routes/0001.png
+[2018-11-19T20:05:50.844] [INFO] default - [127.0.0.1 POST /upload 200 33ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]
+[2018-11-19T20:06:28.660] [INFO] default - [127.0.0.1 POST /upload 500 5ms][http://localhost:8081/ HTTP/1.1 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36]

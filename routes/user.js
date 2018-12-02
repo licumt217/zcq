@@ -138,7 +138,7 @@ router.post('/update', function (req, res) {
 // 获取用户列表
 router.post('/list', function (req, res) {
     
-    logger.info("获取用户列表参数：",req.body)
+    logger.info("获取用户列表的参数：",req.body)
     
     User.find().then(data=>{
     

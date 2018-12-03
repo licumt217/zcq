@@ -58,7 +58,7 @@ fs.readFile('config/domain.json', 'utf-8', function(err, data) {
         var domainConfig=JSON.parse(fs.readFileSync( domainFile));
         console.log('...................')
         // var server = app.listen(8081,'0.0.0.0',function () {
-        let server = app.listen(8081,domainConfig.ip,function (err) {
+        let server = app.listen(80,domainConfig.ip,function (err) {
             const host = server.address().address
             const port = server.address().port
     
